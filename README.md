@@ -1,4 +1,4 @@
-# CRC
+# JavaCRC
 JavaCRC is a parameterized checksum and CRC calculation tool, which supports
 many different algorithms and parameters.  It is pre-configured with:
 
