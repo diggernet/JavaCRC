@@ -72,7 +72,6 @@ public class CRC<T extends Config<U, T>, U extends Computer<T, U>>  {
 	 * <p>
 	 * This is only required to use the faster table-driven method.
 	 * 
-	 * @param <T> Class of Config instance used by Computer implementation.
 	 * @param config CRC configuration to use.
 	 */
 	public CRC(T config) {
