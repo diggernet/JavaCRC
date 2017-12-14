@@ -217,7 +217,7 @@ public class CRCComputer implements Computer<CRCConfig, CRCComputer> {
 		if (config.reflectOutputBytes) {
 			crc= reflectBytes(crc, config.bytes);
 		}
-		return crc;
+		return crc & config.mask;
 	}
 	
 	/**
