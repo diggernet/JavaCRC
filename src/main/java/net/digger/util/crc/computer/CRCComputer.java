@@ -162,10 +162,10 @@ public class CRCComputer implements Computer<CRCConfig, CRCComputer> {
 	 * Reorder the bits of a binary sequence, by reflecting
 	 * them about the middle position.
 	 * <p>
-	 * No checking is done that nBits <= 32.
+	 * No checking is done that {@literal nBits <= 32}.
 	 * 
-	 * @param data
-	 * @param nBits
+	 * @param data Value to reflect bits in.
+	 * @param nBits Number of bits to reflect.
 	 * @return The reflection of the original data.
 	 */
 	protected long reflectBits(long data, int nBits) {
@@ -185,10 +185,10 @@ public class CRCComputer implements Computer<CRCConfig, CRCComputer> {
 	 * Reorder the bytes of a binary sequence, by reflecting
 	 * them about the middle position.
 	 * <p>
-	 * No checking is done that nBytes <= 4.
+	 * No checking is done that {@literal nBytes <= 4}.
 	 * 
-	 * @param data
-	 * @param nBytes
+	 * @param data Value to reflect bytes in.
+	 * @param nBytes Number of bytes to reflect.
 	 * @return The reflection of the original data.
 	 */
 	protected long reflectBytes(long data, int nBytes) {
