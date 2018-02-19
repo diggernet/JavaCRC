@@ -14,6 +14,14 @@ many different algorithms and parameters.  It is pre-configured with:
 * CRC-16 DNP
 * CRC-32
 
+## Maven configuration
+
+		<dependency>
+			<groupId>net.digger</groupId>
+			<artifactId>crc-util</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
 ## Usage
 TL;DR: Give it a configuration and a message, get back a number.
 
